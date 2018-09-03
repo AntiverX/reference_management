@@ -16,10 +16,12 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_add_triggered();
+    void ProvideContextMenu(const QPoint &point);
 
 private:
     Ui::MainWindow *ui;
+    QMenu *menu;
+
 };
 
 #endif // MAINWINDOW_H

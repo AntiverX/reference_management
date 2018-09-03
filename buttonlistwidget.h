@@ -8,7 +8,7 @@ class buttonListWidget : public QWidget
     Q_OBJECT
 public:
     explicit buttonListWidget(QWidget *parent = nullptr);
-    void initWidget(QStringList& nameList);
+    void initWidget();
 
 signals:
 

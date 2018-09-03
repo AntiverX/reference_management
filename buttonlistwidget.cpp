@@ -10,8 +10,7 @@ buttonListWidget::buttonListWidget(QWidget *parent) : QWidget(parent)
 
 }
 
-
-void buttonListWidget::initWidget(QStringList &nameList)
+void buttonListWidget::initWidget()
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
 
